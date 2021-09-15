@@ -1,7 +1,9 @@
-<img src="https://img.shields.io/npm/v/quasar-ui-qcharts.svg?label=quasar-ui-qcharts">
-<img src="https://img.shields.io/npm/v/quasar-app-extension-qcharts.svg?label=quasar-app-extension-qcharts">
+**NOTE:** This is a work in progress at the very earliest stages. The endevor is to be a Vue wrapper for [Carbon Charts](https://github.com/carbon-design-system/carbon-charts). Anyone is welcomed to help, just let me know whch aspects you work on so items can be coordinated.
 
-Compatible with Quasar UI v2 and Vue 3.
+<img src="https://img.shields.io/npm/v/quasar-ui-qcarboncharts.svg?label=quasar-ui-qcarboncharts">
+<img src="https://img.shields.io/npm/v/quasar-app-extension-qcarboncharts.svg?label=quasar-app-extension-qcarboncharts">
+
+
 
 # Structure
 * [/ui](ui) - standalone npm package
