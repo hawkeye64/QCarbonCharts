@@ -3,7 +3,7 @@ import { BubbleChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QChartsBubble',
+  name: 'QCarbonChartsBubble',
 
   props: {
     ...useBaseChartProps

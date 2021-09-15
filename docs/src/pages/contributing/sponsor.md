@@ -1,9 +1,9 @@
 ---
 title: Sponsor
-desc: About sponsoring QCharts
+desc: About sponsoring QCarbonCharts
 keys: Contributing
 related:
-  - /designing-with-qcharts/getting-started
+  - /designing-with-qcarboncharts/getting-started
   - /contributing/overview
 ---
 
@@ -40,7 +40,7 @@ There are several ways to sustain FOSS:
 
 Pick one that works well with you.
 
-For businesses, I highly encourage you to pick #1. Thousands of hours have gone into QCharts. That's time and money you saved from hiring a developer and writing such a component yourself.
+For businesses, I highly encourage you to pick #1. Thousands of hours have gone into QCarbonCharts. That's time and money you saved from hiring a developer and writing such a component yourself.
 
 For individuals and hobbiests, I encourage you more on the contributions-side of things (#2), but if you can, then #1 is also a good option. Small amounts by large numbers of people do add up.
 

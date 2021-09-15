@@ -1,5 +1,5 @@
 ---
-title: QCharts » Simply the BEST charts
+title: QCarbonCharts » Simply the BEST charts
 desc: Build Beautiful, Responsive Charts
 keys: Help
 noEdit: true,

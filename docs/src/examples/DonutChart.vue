@@ -7,12 +7,12 @@
 </template>
 
 <script>
-import QChartsDonut from 'quasar-ui-qcharts/src/components/QChartsDonut'
-import 'quasar-ui-qcharts/src/components/qcharts.sass'
+import QCarbonChartsDonut from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsDonut'
+import 'quasar-ui-qcarboncharts/src/components/qcarboncharts.sass'
 
 export default {
   components: {
-    QChartsDonut
+    QCarbonChartsDonut
   },
   setup() {
     const data = [

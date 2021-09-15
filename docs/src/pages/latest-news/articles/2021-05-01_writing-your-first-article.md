@@ -1,6 +1,6 @@
 ---
-title: Write your first QCharts article
-desc: How to write your first QCharts article
+title: Write your first QCarbonCharts article
+desc: How to write your first QCarbonCharts article
 author: Jeff Galbraith
 keys: latest-news
 components:
@@ -8,7 +8,7 @@ components:
 ---
 ![image](/articles/2021-05-01_writing-your-first-article/index.jpg =1200x200)
 
-## Writing your first QCharts article
+## Writing your first QCarbonCharts article
 
 <articles-avatar
   avatar-src="https://avatars.githubusercontent.com/u/10262924"
@@ -37,8 +37,8 @@ The top of a markdown file is in Yaml format.
 
 ```yaml
 ---
-title: Write your first QCharts article
-desc: How to write your first QCharts article
+title: Write your first QCarbonCharts article
+desc: How to write your first QCarbonCharts article
 author: Jeff Galbraith
 keys: latest-news
 ---
@@ -95,7 +95,7 @@ and I can use the component like this, directly in the markdown:
 
 And what you get is my avatar that you see at the top of the page.
 
-But, say this was a tutorial, you could write a component that references one of the QCharts charting components. The only rule to be followed is that the component **must** be in the `components/page-parts/articles` folder.
+But, say this was a tutorial, you could write a component that references one of the QCarbonCharts charting components. The only rule to be followed is that the component **must** be in the `components/page-parts/articles` folder.
 
 ### Images
 

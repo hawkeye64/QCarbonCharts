@@ -3,7 +3,7 @@ import JsonApiViewer from 'quasar-ui-json-api-viewer/src/components/JsonApiViewe
 import MarkdownPage from '../components/MarkdownPage.vue'
 import MarkdownLink from '../components/MarkdownLink.vue'
 import ExampleViewer, { setDefaults } from 'quasar-ui-example-viewer/src'
-import pkg from 'quasar-ui-qcharts/package.json'
+import pkg from 'quasar-ui-qcarboncharts/package.json'
 const { version } = pkg
 
 

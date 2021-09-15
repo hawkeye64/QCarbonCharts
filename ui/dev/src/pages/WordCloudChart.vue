@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import QChartsWordCloud from 'quasar-ui-qcharts/src/components/QChartsWordCloud'
+import QCarbonChartsWordCloud from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsWordCloud'
 
 export default {
   components: {
-    QChartsWordCloud
+    QCarbonChartsWordCloud
   },
   setup() {
     const data = [

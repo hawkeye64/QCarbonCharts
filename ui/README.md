@@ -1,11 +1,11 @@
-# Component QCharts
+# Component QCarbonCharts
 
-[![npm](https://img.shields.io/npm/v/quasar-ui-qcharts.svg?label=quasar-ui-qcharts)](https://www.npmjs.com/package/quasar-ui-qcharts)
-[![npm](https://img.shields.io/npm/dt/quasar-ui-qcharts.svg)](https://www.npmjs.com/package/quasar-ui-qcharts)
+[![npm](https://img.shields.io/npm/v/quasar-ui-qcarboncharts.svg?label=quasar-ui-qcarboncharts)](https://www.npmjs.com/package/quasar-ui-qcarboncharts)
+[![npm](https://img.shields.io/npm/dt/quasar-ui-qcarboncharts.svg)](https://www.npmjs.com/package/quasar-ui-qcarboncharts)
 
 **Compatible with Quasar UI v2 and Vue 3**.
 
-# Component QCharts
+# Component QCarbonCharts
 > Short description of the component
 
 
@@ -21,8 +21,8 @@ Create and register a boot file:
 
 ```js
 import Vue from 'vue'
-import Plugin from 'quasar-ui-qcharts'
-import 'quasar-ui-qcharts/dist/index.css'
+import Plugin from 'quasar-ui-qcarboncharts'
+import 'quasar-ui-qcarboncharts/dist/index.css'
 
 Vue.use(Plugin)
 ```
@@ -30,14 +30,14 @@ Vue.use(Plugin)
 **OR**:
 
 ```html
-<style src="quasar-ui-qcharts/dist/index.css"></style>
+<style src="quasar-ui-qcarboncharts/dist/index.css"></style>
 
 <script>
-import { Component as QCharts } from 'quasar-ui-qcharts'
+import { Component as QCarbonCharts } from 'quasar-ui-qcarboncharts'
 
 export default {
   components: {
-    QCharts
+    QCarbonCharts
   }
 }
 </script>
@@ -47,8 +47,8 @@ export default {
 
 ```js
 import Vue from 'vue'
-import Plugin from 'quasar-ui-qcharts'
-import 'quasar-ui-qcharts/dist/index.css'
+import Plugin from 'quasar-ui-qcarboncharts'
+import 'quasar-ui-qcarboncharts/dist/index.css'
 
 Vue.use(Plugin)
 ```
@@ -56,14 +56,14 @@ Vue.use(Plugin)
 **OR**:
 
 ```html
-<style src="quasar-ui-qcharts/dist/index.css"></style>
+<style src="quasar-ui-qcarboncharts/dist/index.css"></style>
 
 <script>
-import { Component as QCharts } from 'quasar-ui-qcharts'
+import { Component as QCarbonCharts } from 'quasar-ui-qcarboncharts'
 
 export default {
   components: {
-    QCharts
+    QCarbonCharts
   }
 }
 </script>
@@ -71,23 +71,23 @@ export default {
 
 ## UMD variant
 
-Exports `window.QCharts`.
+Exports `window.QCarbonCharts`.
 
 Add the following tag(s) after the Quasar ones:
 
 ```html
 <head>
   <!-- AFTER the Quasar stylesheet tags: -->
-  <link href="https://cdn.jsdelivr.net/npm/quasar-ui-qcharts/dist/index.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/npm/quasar-ui-qcarboncharts/dist/index.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <!-- at end of body, AFTER Quasar script(s): -->
-  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-qcharts/dist/index.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-qcarboncharts/dist/index.umd.min.js"></script>
 </body>
 ```
 If you need the RTL variant of the CSS, then go for the following (instead of the above stylesheet link):
 ```html
-<link href="https://cdn.jsdelivr.net/npm/quasar-ui-qcharts/dist/index.rtl.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/quasar-ui-qcarboncharts/dist/index.rtl.min.css" rel="stylesheet" type="text/css">
 ```
 
 # Setup

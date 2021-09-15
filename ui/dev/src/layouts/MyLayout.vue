@@ -11,7 +11,7 @@
         />
 
         <q-toolbar-title>
-          quasar-ui-qcharts v{{ version }}
+          quasar-ui-qcarboncharts v{{ version }}
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>

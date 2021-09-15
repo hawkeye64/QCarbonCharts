@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import QChartsCirclePack from 'quasar-ui-qcharts/src/components/QChartsCirclePack'
+import QCarbonChartsCirclePack from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsCirclePack'
 
 export default {
   components: {
-    QChartsCirclePack
+    QCarbonChartsCirclePack
   },
   setup() {
     const data = [

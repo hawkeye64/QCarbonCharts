@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import QChartsBubble from 'quasar-ui-qcharts/src/components/QChartsBubble'
+import QCarbonChartsBubble from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsBubble'
 
 export default {
   components: {
-    QChartsBubble
+    QCarbonChartsBubble
   },
   setup() {
     const data = [

@@ -9,13 +9,13 @@ related:
 
 ## Design
 
-You do not have to be a developer to contribute to a new QCharts component. You can also design one and either core developers will work on it or the community will get involved.
+You do not have to be a developer to contribute to a new QCarbonCharts component. You can also design one and either core developers will work on it or the community will get involved.
 ## Parts of a component contribution
 
 Component contributions ideally include all of the following parts.
 
 1. **A rationale**
-Explain how your component will add value to the system. QCharts serves the widest possible range of charting products, and contributions that increase the scope of the system are more likely to be accepted. Be sure to include any user experience and interaction descriptions.
+Explain how your component will add value to the system. QCarbonCharts serves the widest possible range of charting products, and contributions that increase the scope of the system are more likely to be accepted. Be sure to include any user experience and interaction descriptions.
 
 2. **A design spec**
 Create sizing and styling annotations for all aspects of the component. This spec should provide a developer with everything they need to create the design in code.
@@ -25,7 +25,7 @@ We recommend reading through existing code documentation on this site for inspir
 
 ## First steps to contributing
 
-To contribute a component to QCharts, start by opening a [GitHub Issue](https://github.com/hawkeye64/QCharts/issues). Include a detailed description in which you:
+To contribute a component to QCarbonCharts, start by opening a [GitHub Issue](https://github.com/hawkeye64/QCarbonCharts/issues). Include a detailed description in which you:
 
 - Explain the rationale
 - Detail the intended behavior

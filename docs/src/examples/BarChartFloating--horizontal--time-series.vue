@@ -7,12 +7,12 @@
 </template>
 
 <script>
-import QChartsBarSimple from 'quasar-ui-qcharts/src/components/QChartsBarSimple'
-import 'quasar-ui-qcharts/src/components/qcharts.sass'
+import QCarbonChartsBarSimple from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsBarSimple'
+import 'quasar-ui-qcarboncharts/src/components/qcarboncharts.sass'
 
 export default {
   components: {
-    QChartsBarSimple
+    QCarbonChartsBarSimple
   },
   setup() {
 		const data = [

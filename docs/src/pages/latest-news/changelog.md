@@ -1,8 +1,8 @@
 ---
 title: Changelog
-desc: The latest QCharts releases
+desc: The latest QCarbonCharts releases
 keys: latest-news
 components:
-- releases/QChartsReleases
+- releases/QCarbonChartsReleases
 ---
 <q-calendar-releases class="q-mt-sm"/>

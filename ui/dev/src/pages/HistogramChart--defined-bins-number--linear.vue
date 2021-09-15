@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import QChartsHistogram from 'quasar-ui-qcharts/src/components/QChartsHistogram'
+import QCarbonChartsHistogram from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsHistogram'
 
 export default {
   components: {
-    QChartsHistogram
+    QCarbonChartsHistogram
   },
   setup() {
     const data = [

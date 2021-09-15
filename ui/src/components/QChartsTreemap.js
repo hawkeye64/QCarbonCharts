@@ -3,7 +3,7 @@ import { TreemapChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QChartsScatter',
+  name: 'QCarbonChartsScatter',
 
   props: {
     ...useBaseChartProps

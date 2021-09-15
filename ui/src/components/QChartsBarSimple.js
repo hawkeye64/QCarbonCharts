@@ -3,7 +3,7 @@ import { SimpleBarChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QChartsBarSimple',
+  name: 'QCarbonChartsBarSimple',
 
   props: {
     ...useBaseChartProps

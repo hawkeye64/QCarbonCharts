@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import QChartsLollipop from 'quasar-ui-qcharts/src/components/QChartsLollipop'
+import QCarbonChartsLollipop from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsLollipop'
 
 export default {
   components: {
-    QChartsLollipop
+    QCarbonChartsLollipop
   },
   setup() {
     const data = [

@@ -5,6 +5,6 @@ keys: latest-news
 components:
   - articles/ArticlesGrid
 ---
-Do you have a news article, tutorial or something you'd like to spotlight in this area regarding QCharts? Make a PR!
+Do you have a news article, tutorial or something you'd like to spotlight in this area regarding QCarbonCharts? Make a PR!
 
 <articles-grid />

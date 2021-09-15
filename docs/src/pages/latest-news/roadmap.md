@@ -1,6 +1,6 @@
 ---
 title: Roadmap
-desc: The future of QCharts
+desc: The future of QCarbonCharts
 keys: latest-news
 ---
-Information to come after QCharts v1.0.0 release.
+Information to come after QCarbonCharts v1.0.0 release.

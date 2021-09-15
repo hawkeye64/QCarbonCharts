@@ -7,12 +7,12 @@
 </template>
 
 <script>
-import QChartsBarStacked from 'quasar-ui-qcharts/src/components/QChartsBarStacked'
-import 'quasar-ui-qcharts/src/components/qcharts.sass'
+import QCarbonChartsBarStacked from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsBarStacked'
+import 'quasar-ui-qcarboncharts/src/components/qcarboncharts.sass'
 
 export default {
   components: {
-    QChartsBarStacked
+    QCarbonChartsBarStacked
   },
   setup() {
 		const data = []

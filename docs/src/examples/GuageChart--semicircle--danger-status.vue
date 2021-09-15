@@ -7,12 +7,12 @@
 </template>
 
 <script>
-import QChartsGuage from 'quasar-ui-qcharts/src/components/QChartsGuage'
-import 'quasar-ui-qcharts/src/components/qcharts.sass'
+import QCarbonChartsGuage from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsGuage'
+import 'quasar-ui-qcarboncharts/src/components/qcarboncharts.sass'
 
 export default {
   components: {
-    QChartsGuage
+    QCarbonChartsGuage
   },
   setup() {
     const data = [

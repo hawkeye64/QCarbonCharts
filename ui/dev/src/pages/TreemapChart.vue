@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import QChartsTreemap from 'quasar-ui-qcharts/src/components/QChartsTreemap'
+import QCarbonChartsTreemap from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsTreemap'
 
 export default {
   components: {
-    QChartsTreemap
+    QCarbonChartsTreemap
   },
   setup() {
     const data = [

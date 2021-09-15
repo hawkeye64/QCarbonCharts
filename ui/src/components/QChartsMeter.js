@@ -3,7 +3,7 @@ import { MeterChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QChartsMeter',
+  name: 'QCarbonChartsMeter',
 
   props: {
     ...useBaseChartProps

@@ -1,13 +1,13 @@
-# Quasar App Extension qcharts
+# Quasar App Extension qcarboncharts
 
 > Add a short description of your App Extension. What does it do? How is it beneficial? Why would someone want to use it?
 
-[![npm](https://img.shields.io/npm/v/quasar-app-extension-qcharts.svg?label=quasar-app-extension-qcharts)](https://www.npmjs.com/package/quasar-app-extension-qcharts)
-[![npm](https://img.shields.io/npm/dt/quasar-app-extension-qcharts.svg)](https://www.npmjs.com/package/quasar-app-extension-qcharts)
+[![npm](https://img.shields.io/npm/v/quasar-app-extension-qcarboncharts.svg?label=quasar-app-extension-qcarboncharts)](https://www.npmjs.com/package/quasar-app-extension-qcarboncharts)
+[![npm](https://img.shields.io/npm/dt/quasar-app-extension-qcarboncharts.svg)](https://www.npmjs.com/package/quasar-app-extension-qcarboncharts)
 
 # Install
 ```bash
-quasar ext add qcharts
+quasar ext add qcarboncharts
 ```
 Quasar CLI will retrieve it from NPM and install the extension.
 
@@ -17,7 +17,7 @@ Quasar CLI will retrieve it from NPM and install the extension.
 
 # Uninstall
 ```bash
-quasar ext remove qcharts
+quasar ext remove qcarboncharts
 ```
 
 # Info

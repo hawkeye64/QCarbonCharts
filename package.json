@@ -1,7 +1,7 @@
 {
-  "name": "qcharts",
+  "name": "qcarboncharts",
   "version": "1.0.0",
-  "description": "QCharts mono-repo",
+  "description": "qcarboncharts mono-repo",
   "workspaces": [
     "ui",
     "docs"

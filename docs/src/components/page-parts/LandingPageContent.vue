@@ -14,7 +14,7 @@
     </div>
     <div class="full-width row justify-center q-pb-xl">
       <q-btn
-        to="/all-about-qcharts/what-is-qcharts"
+        to="/all-about-qcarboncharts/what-is-qcarboncharts"
         no-caps
         class="bg-red-8"
       >
@@ -29,7 +29,7 @@
     <q-timeline :layout="layout" color="primary q-mb-xl">
 
       <q-timeline-entry heading>
-        <div style="font-size: 32px; font-weight: 600;">QCharts</div>
+        <div style="font-size: 32px; font-weight: 600;">QCarbonCharts</div>
         <div style="font-size: 22px; font-weight: 600;" class="text-grey">A Vue chart component that has everything you need</div>
         <!-- <div style="font-size: 16px;">Build Beautiful,Responsive Calendars</div> -->
       </q-timeline-entry>

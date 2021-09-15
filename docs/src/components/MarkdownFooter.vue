@@ -1,7 +1,7 @@
 <template>
   <div class="markdown-page__footer--icons q-mt-md full-width row justify-center items-center q-gutter-sm">
     <a href="https://github.com/hawkeye64" target="_blank" rel="noopener"><q-avatar size="28px"><img src="~assets/profile.png"></q-avatar></a>
-    <a href="https://github.com/hawkeye64/QCharts/tree/master" target="_blank" rel="noopener"><q-icon :name="fabGithub" /></a>
+    <a href="https://github.com/hawkeye64/QCarbonCharts/tree/master" target="_blank" rel="noopener"><q-icon :name="fabGithub" /></a>
     <a href="https://twitter.com/jgalbraith64" target="_blank" rel="noopener"><q-icon :name="fabTwitter" /></a>
     <a href="https://github.com/sponsors/hawkeye64" target="_blank" rel="noopener"><q-icon :name="mdiCharity" /></a>
   </div>

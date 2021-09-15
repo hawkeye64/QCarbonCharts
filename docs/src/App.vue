@@ -14,12 +14,12 @@ export default defineComponent({
 
   setup () {
     useMeta({
-      title: 'QCharts » Build Beautiful, Responsive Charts',
-      titleTemplate: title => `${ title } » QCharts`,
+      title: 'QCarbonCharts » Build Beautiful, Responsive Charts',
+      titleTemplate: title => `${ title } » QCarbonCharts`,
 
       meta: getMeta(
-        'QCharts - Line, Area, Bar, Bubble, Donut, Guage, Histogram, Pie, Radar, Scatter and many more for your Vue Apps',
-        'QCharts is a wrapper around the powerful Carbon Charts.'
+        'QCarbonCharts - Line, Area, Bar, Bubble, Donut, Guage, Histogram, Pie, Radar, Scatter and many more for your Vue Apps',
+        'QCarbonCharts is a wrapper around the powerful Carbon Charts.'
       )
     })
 

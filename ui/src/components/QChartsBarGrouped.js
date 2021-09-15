@@ -3,7 +3,7 @@ import { GroupedBarChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QChartsBarGrouped',
+  name: 'QCarbonChartsBarGrouped',
 
   props: {
     ...useBaseChartProps

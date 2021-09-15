@@ -52,7 +52,7 @@ module.exports = function (ctx) {
         })
 
         chain.resolve.alias.merge({
-          qcharts: path.resolve(__dirname, `../src`)
+          qcarboncharts: path.resolve(__dirname, `../src`)
         })
 
         chain.plugin('define-ui')

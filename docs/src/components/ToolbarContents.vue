@@ -16,7 +16,7 @@
   >
   <div v-if="$q.screen.width > 500" class="text-weight-bold">
     <span style="font-size: 20px;">
-      QCharts &nbsp;
+      QCarbonCharts &nbsp;
     </span>
     <span style="font-size: 12px;">
       v{{ version }}
@@ -51,7 +51,7 @@
 
 <script>
 import { defineComponent } from 'vue'
-import pkg from 'quasar-ui-qcharts/package.json'
+import pkg from 'quasar-ui-qcarboncharts/package.json'
 const { version } = pkg
 
 export default defineComponent({

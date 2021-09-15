@@ -9,7 +9,7 @@
 * [/ui](ui) - standalone npm package
 * [/app-extension](app-extension) - Quasar app extension
 * [/docs](docs) - sources for docs, demo and examples project
-* [live demo](https://qcharts.netlify.app/) - **live docs, demo and examples**
+* [live demo](https://qcarboncharts.netlify.app/) - **live docs, demo and examples**
 
 
 # Donate

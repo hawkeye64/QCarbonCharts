@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import QChartsRadar from 'quasar-ui-qcharts/src/components/QChartsRadar'
+import QCarbonChartsRadar from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsRadar'
 
 export default {
   components: {
-    QChartsRadar
+    QCarbonChartsRadar
   },
   setup() {
     const data = [

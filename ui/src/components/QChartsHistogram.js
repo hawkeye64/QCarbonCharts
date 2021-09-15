@@ -3,7 +3,7 @@ import { HistogramChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QChartsHistogram',
+  name: 'QCarbonChartsHistogram',
 
   props: {
     ...useBaseChartProps

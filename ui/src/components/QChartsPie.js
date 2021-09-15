@@ -3,7 +3,7 @@ import { PieChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QChartsPie',
+  name: 'QCarbonChartsPie',
 
   props: {
     ...useBaseChartProps

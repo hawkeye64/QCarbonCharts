@@ -36,7 +36,7 @@
           <div class="full-width row justify-center items-center">
             Found an error on this page or feel it could be improved?
             <markdown-link
-              :to="'https://github.com/hawkeye64/QCharts/edit/master/docs/src/pages' + path + '.md'"
+              :to="'https://github.com/hawkeye64/QCarbonCharts/edit/master/docs/src/pages' + path + '.md'"
             >
               &nbsp; Edit this page on GitHub
             </markdown-link>
@@ -97,7 +97,7 @@ export default {
 
     useMeta(
       props.metaDesc !== void 0
-        ? { title: props.metaTitle, meta: getMeta(props.metaTitle + ' » QCharts', props.metaDesc) }
+        ? { title: props.metaTitle, meta: getMeta(props.metaTitle + ' » QCarbonCharts', props.metaDesc) }
         : { title: props.metaTitle }
     )
 

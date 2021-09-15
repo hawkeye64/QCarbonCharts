@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import QChartsAreaStacked from 'quasar-ui-qcharts/src/components/QChartsAreaStacked'
+import QCarbonChartsAreaStacked from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsAreaStacked'
 
 export default {
   components: {
-    QChartsAreaStacked
+    QCarbonChartsAreaStacked
   },
   setup() {
 		const data = [

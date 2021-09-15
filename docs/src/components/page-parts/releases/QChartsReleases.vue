@@ -32,7 +32,7 @@ import PackageReleases from './PackageReleases'
 const { extractDate, formatDate } = date
 
 export default {
-  name: 'QChartsReleases',
+  name: 'QCarbonChartsReleases',
 
   components: {
     PackageReleases
@@ -40,12 +40,12 @@ export default {
 
   setup () {
     const packagesDefinitions = {
-      'QCharts': []
+      'QCarbonCharts': []
     }
     const loading = ref(false)
     const error = ref(false)
     const packages = ref(packagesDefinitions)
-    const currentPackage = ref('QCharts')
+    const currentPackage = ref('QCarbonCharts')
     const versions = ref({})
     const latestVersions = ref({})
 
@@ -101,7 +101,7 @@ export default {
         }
 
         // sort by date
-        packages.value.QCharts.sort((a, b) => {
+        packages.value.QCarbonCharts.sort((a, b) => {
           return parseInt(b.date.replace(/-/g, ''), 10) - parseInt(a.date.replace(/-/g, ''), 10)
         })
       })
@@ -110,7 +110,7 @@ export default {
         error.value = true
       })
 
-      xhrQuasar.open('GET', `https://api.github.com/repos/hawkeye64/QCharts/releases?page=${ page }&per_page=100`)
+      xhrQuasar.open('GET', `https://api.github.com/repos/hawkeye64/QCarbonCharts/releases?page=${ page }&per_page=100`)
       xhrQuasar.send()
     }
 

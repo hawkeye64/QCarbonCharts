@@ -3,7 +3,7 @@ import { AreaChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QChartsAreaSimple',
+  name: 'QCarbonChartsAreaSimple',
 
   props: {
     ...useBaseChartProps

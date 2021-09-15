@@ -3,7 +3,7 @@ import { GaugeChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QChartsGuage',
+  name: 'QCarbonChartsGuage',
 
   props: {
     ...useBaseChartProps

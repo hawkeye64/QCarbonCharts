@@ -3,7 +3,7 @@ import { BulletChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QChartsBullet',
+  name: 'QCarbonChartsBullet',
 
   props: {
     ...useBaseChartProps

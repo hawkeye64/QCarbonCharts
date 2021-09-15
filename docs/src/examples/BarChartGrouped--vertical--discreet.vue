@@ -7,12 +7,12 @@
 </template>
 
 <script>
-import QChartsBarGrouped from 'quasar-ui-qcharts/src/components/QChartsBarGrouped'
-import 'quasar-ui-qcharts/src/components/qcharts.sass'
+import QCarbonChartsBarGrouped from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsBarGrouped'
+import 'quasar-ui-qcarboncharts/src/components/qcarboncharts.sass'
 
 export default {
   components: {
-    QChartsBarGrouped
+    QCarbonChartsBarGrouped
   },
   setup() {
 		const data = [

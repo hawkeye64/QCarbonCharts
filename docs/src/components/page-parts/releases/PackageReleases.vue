@@ -78,7 +78,7 @@ export default {
         .replace(/```([\S]+)/g, '<code class="markdown--code__inner release__code">')
         .replace(/```\n/g, '</code>')
         .replace(/\`(.*?)\`/g, '<code class="markdown--token">$1</code>')
-        .replace(/#([\d]+)/g, '<a class="markdown-link" href="https://github.com/hawkeye64/QCharts/issues/$1" target="_blank">#$1</a>')
+        .replace(/#([\d]+)/g, '<a class="markdown-link" href="https://github.com/hawkeye64/QCarbonCharts/issues/$1" target="_blank">#$1</a>')
         .replace(/^&gt; ([\S ]+)$/gm, '<div class="release__blockquote">$1</div>')
         .replace(/\[([\S ]*?)\]\((\S*?)\)/g, '<a class="markdown-link" href="$2" target="_blank">$1</a>')
         .replace(/^ {2}[-*] ([\S .]+)$/gm, '<li class="q-pl-md">$1</li>')

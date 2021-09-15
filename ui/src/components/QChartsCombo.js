@@ -3,7 +3,7 @@ import { ComboChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QChartsCombo',
+  name: 'QCarbonChartsCombo',
 
   props: {
     ...useBaseChartProps

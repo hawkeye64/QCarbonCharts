@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import QChartsAreaSimple from 'quasar-ui-qcharts/src/components/QChartsAreaSimple'
+import QCarbonChartsAreaSimple from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsAreaSimple'
 
 export default {
   components: {
-    QChartsAreaSimple
+    QCarbonChartsAreaSimple
   },
   setup() {
 		const data = [

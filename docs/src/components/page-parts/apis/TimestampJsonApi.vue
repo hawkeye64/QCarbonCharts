@@ -11,7 +11,7 @@
 
 <script>
 import { defineComponent } from 'vue'
-// import Api from 'quasar-ui-qcharts/dist/api/charts.json'
+// import Api from 'quasar-ui-qcarboncharts/dist/api/charts.json'
 
 export default defineComponent({
   name: 'TimestampJsonApi',

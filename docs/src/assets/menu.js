@@ -4,13 +4,13 @@ const mdiCharity = 'M12.75,3.94C13.75,3.22 14.91,2.86 16.22,2.86C16.94,2.86 17.7
 
 const menu = [
   {
-    name: 'All about QCharts',
-    path: 'all-about-qcharts',
+    name: 'All about QCarbonCharts',
+    path: 'all-about-qcarboncharts',
     expanded: false,
     children: [
       {
-        name: 'What is QCharts',
-        path: 'what-is-qcharts'
+        name: 'What is QCarbonCharts',
+        path: 'what-is-qcarboncharts'
       },
       {
         name: 'Installation types',
@@ -857,8 +857,8 @@ const menu = [
   //   ]
   // },
   // {
-  //   name: 'Designing with QCharts',
-  //   path: 'designing-with-qcharts',
+  //   name: 'Designing with QCarbonCharts',
+  //   path: 'designing-with-qcarboncharts',
   //   expanded: false,
   //   children: [
   //     {
@@ -870,8 +870,8 @@ const menu = [
   //       path: 'themes'
   //     },
   //     {
-  //       name: 'QCharts CSS Variables',
-  //       path: 'qcharts-css-variables'
+  //       name: 'QCarbonCharts CSS Variables',
+  //       path: 'qcarboncharts-css-variables'
   //     },
   //     {
   //       name: 'Theme builder',
@@ -940,7 +940,7 @@ const menu = [
       {
         name: 'GitHub',
         external: true,
-        path: 'https://github.com/hawkeye64/QCharts',
+        path: 'https://github.com/hawkeye64/QCarbonCharts',
         rightIcon: biGithub
       },
       {

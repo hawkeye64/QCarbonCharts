@@ -3,7 +3,7 @@ import { StackedAreaChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QChartsAreaStacked',
+  name: 'QCarbonChartsAreaStacked',
 
   props: {
     ...useBaseChartProps
