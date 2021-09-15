@@ -1,0 +1,32 @@
+@import './../vendor/@carbon/type/scss/type';
+@import './../vendor/@carbon/type/scss/font-face/sans';
+@import './../vendor/@carbon/themes/scss/tokens';
+
+.#{$prefix}--#{$charts-prefix}--axes {
+	overflow: visible;
+
+	g.axis {
+		g.ticks.invisible {
+			visibility: hidden;
+		}
+
+		g.tick text {
+			fill: $text-02;
+			font-family: carbon--font-family('sans-condensed');
+		}
+
+		g.tick line {
+			display: none;
+		}
+
+		path.domain {
+			stroke: $ui-04;
+		}
+
+		.axis-title {
+			font-family: carbon--font-family('sans');
+			font-weight: carbon--font-weight('semibold');
+			fill: $text-01;
+		}
+	}
+}

@@ -1,0 +1,85 @@
+<template>
+  <q-page padding>
+    <q-charts-area-simple
+      :data="data"
+      :options="options" />
+  </q-page>
+</template>
+
+<script>
+import QChartsAreaSimple from 'quasar-ui-qcharts/src/components/QChartsAreaSimple'
+import 'quasar-ui-qcharts/src/components/qcharts.sass'
+
+export default {
+  components: {
+    QChartsAreaSimple
+  },
+  setup() {
+    const data = [
+      {
+        "group": "Dataset 1",
+        "date": "2019-01-01T07:00:00.000Z",
+        "value": 47263,
+        "min": 40000,
+        "max": 50000
+      },
+      {
+        "group": "Dataset 1",
+        "date": "2019-01-05T07:00:00.000Z",
+        "value": 14178,
+        "min": 10000,
+        "max": 20000
+      },
+      {
+        "group": "Dataset 1",
+        "date": "2019-01-08T07:00:00.000Z",
+        "value": 23094,
+        "min": 10000,
+        "max": 25000
+      },
+      {
+        "group": "Dataset 1",
+        "date": "2019-01-13T07:00:00.000Z",
+        "value": 45281,
+        "min": 42000,
+        "max": 50000
+      },
+      {
+        "group": "Dataset 1",
+        "date": "2019-01-19T07:00:00.000Z",
+        "value": -63954,
+        "min": -70000,
+        "max": -10000
+      }
+    ]
+    const options = {
+      "title": "Bounded area (time series - natural curve)",
+      "legend": {
+        "enabled": false
+      },
+      "bounds": {
+        "upperBoundMapsTo": "max",
+        "lowerBoundMapsTo": "min"
+      },
+      "axes": {
+        "bottom": {
+          "title": "2019 Annual Sales Figures",
+          "mapsTo": "date",
+          "scaleType": "time"
+        },
+        "left": {
+          "mapsTo": "value",
+          "scaleType": "linear"
+        }
+      },
+      "curve": "curveNatural",
+      "height": "400px"
+    }
+
+    return {
+      data,
+      options
+    }
+  }
+}
+</script>

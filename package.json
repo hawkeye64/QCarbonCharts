@@ -1,0 +1,15 @@
+{
+  "name": "qcharts",
+  "version": "1.0.0",
+  "description": "QCharts mono-repo",
+  "workspaces": [
+    "ui",
+    "docs"
+  ],
+  "author": "Jeff Galbraith <galbraith64@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build:all": "yarn && cd ./ui && yarn build && cd ../docs && quasar build"
+  }
+}
