@@ -1,18 +1,18 @@
 <template>
   <q-page padding>
-    <q-charts-area-simple
+    <qcc-area-simple
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsAreaSimple from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsAreaSimple'
+import QccAreaSimple from 'quasar-ui-qcarboncharts/src/components/QccAreaSimple'
 import 'quasar-ui-qcarboncharts/src/components/qcarboncharts.sass'
 
 export default {
   components: {
-    QCarbonChartsAreaSimple
+    QccAreaSimple
   },
   setup() {
     const data = []

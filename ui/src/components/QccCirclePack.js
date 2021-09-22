@@ -1,9 +1,9 @@
 import { h, ref, onMounted } from 'vue'
-import { BulletChart } from '@carbon/charts'
+import { CirclePackChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QCarbonChartsBullet',
+  name: 'QccScatter',
 
   props: {
     ...useBaseChartProps
@@ -14,7 +14,7 @@ export default {
     const chartRef = ref(null)
 
     onMounted(() => {
-      coreChart.value = new BulletChart(chartRef.value, {
+      coreChart.value = new CirclePackChart(chartRef.value, {
         data: props.data,
         options: props.options,
       })
@@ -27,7 +27,7 @@ export default {
     function __renderChart () {
       return h('div', {
         ref: chartRef,
-        class: 'q-charts q-charts-bullet'
+        class: 'q-carbon-charts q-carbon-charts-circle-pack'
       })
     }
 

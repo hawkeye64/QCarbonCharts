@@ -1,9 +1,9 @@
 import { h, ref, onMounted } from 'vue'
-import { StackedAreaChart } from '@carbon/charts'
+import { ComboChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QCarbonChartsAreaStacked',
+  name: 'QccCombo',
 
   props: {
     ...useBaseChartProps
@@ -14,7 +14,7 @@ export default {
     const chartRef = ref(null)
 
     onMounted(() => {
-      coreChart.value = new StackedAreaChart(chartRef.value, {
+      coreChart.value = new ComboChart(chartRef.value, {
         data: props.data,
         options: props.options,
       })
@@ -27,7 +27,7 @@ export default {
     function __renderChart () {
       return h('div', {
         ref: chartRef,
-        class: 'q-charts q-charts-area-stacked'
+        class: 'q-carbon-charts q-carbon-charts-combo'
       })
     }
 

@@ -1,17 +1,17 @@
 <template>
   <q-page padding>
-    <q-charts-pie
+    <qcc-pie
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsPie from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsPie'
+import QccPie from 'quasar-ui-qcarboncharts/src/components/QccPie'
 
 export default {
   components: {
-    QCarbonChartsPie
+    QccPie
   },
   setup() {
     const data = []

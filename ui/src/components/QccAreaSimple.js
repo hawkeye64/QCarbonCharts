@@ -1,9 +1,9 @@
 import { h, ref, onMounted } from 'vue'
-import { PieChart } from '@carbon/charts'
+import { AreaChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QCarbonChartsPie',
+  name: 'QccAreaSimple',
 
   props: {
     ...useBaseChartProps
@@ -14,7 +14,7 @@ export default {
     const chartRef = ref(null)
 
     onMounted(() => {
-      coreChart.value = new PieChart(chartRef.value, {
+      coreChart.value = new AreaChart(chartRef.value, {
         data: props.data,
         options: props.options,
       })
@@ -27,7 +27,7 @@ export default {
     function __renderChart () {
       return h('div', {
         ref: chartRef,
-        class: 'q-charts q-charts-pie'
+        class: 'q-carbon-charts q-carbon-charts-area-simple'
       })
     }
 

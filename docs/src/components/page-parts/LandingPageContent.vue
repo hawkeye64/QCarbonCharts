@@ -2,7 +2,7 @@
   <section class="flex flex-center bg-blue-10 text-white shadow-10">
     <div class="landing-page__container">
       <div class="landing-page__splash row justify-around items-center">
-        <h2 class="text-weight-bold text-blue-2 q-pa-sm" style="padding-left: 20px;">Build Beautiful,<br>Responsive<br> Calendars</h2>
+        <h2 class="text-weight-bold text-blue-2 q-pa-sm" style="padding-left: 20px;">Build Beautiful,<br>Responsive<br> Charts</h2>
         <div class="q-pa-sm">
           <img
             src="/qcalendarmonth-event-slots.png"
@@ -31,7 +31,7 @@
       <q-timeline-entry heading>
         <div style="font-size: 32px; font-weight: 600;">QCarbonCharts</div>
         <div style="font-size: 22px; font-weight: 600;" class="text-grey">A Vue chart component that has everything you need</div>
-        <!-- <div style="font-size: 16px;">Build Beautiful,Responsive Calendars</div> -->
+        <!-- <div style="font-size: 16px;">Build Beautiful, Responsive Charts</div> -->
       </q-timeline-entry>
 
       <q-timeline-entry

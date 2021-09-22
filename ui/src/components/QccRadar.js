@@ -1,9 +1,9 @@
 import { h, ref, onMounted } from 'vue'
-import { BubbleChart } from '@carbon/charts'
+import { RadarChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QCarbonChartsBubble',
+  name: 'QccRadar',
 
   props: {
     ...useBaseChartProps
@@ -14,7 +14,7 @@ export default {
     const chartRef = ref(null)
 
     onMounted(() => {
-      coreChart.value = new BubbleChart(chartRef.value, {
+      coreChart.value = new RadarChart(chartRef.value, {
         data: props.data,
         options: props.options,
       })
@@ -27,7 +27,7 @@ export default {
     function __renderChart () {
       return h('div', {
         ref: chartRef,
-        class: 'q-charts q-charts-bubble'
+        class: 'q-carbon-charts q-carbon-charts-radar'
       })
     }
 

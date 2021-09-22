@@ -1,9 +1,9 @@
 import { h, ref, onMounted } from 'vue'
-import { HistogramChart } from '@carbon/charts'
+import { BulletChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QCarbonChartsHistogram',
+  name: 'QccBullet',
 
   props: {
     ...useBaseChartProps
@@ -14,7 +14,7 @@ export default {
     const chartRef = ref(null)
 
     onMounted(() => {
-      coreChart.value = new HistogramChart(chartRef.value, {
+      coreChart.value = new BulletChart(chartRef.value, {
         data: props.data,
         options: props.options,
       })
@@ -27,7 +27,7 @@ export default {
     function __renderChart () {
       return h('div', {
         ref: chartRef,
-        class: 'q-charts q-charts-histogram'
+        class: 'q-carbon-charts q-carbon-charts-bullet'
       })
     }
 

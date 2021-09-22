@@ -1,17 +1,17 @@
 <template>
   <q-page padding>
-    <q-charts-scatter
+    <qcc-scatter
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsScatter from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsScatter'
+import QccScatter from 'quasar-ui-qcarboncharts/src/components/QccScatter'
 
 export default {
   components: {
-    QCarbonChartsScatter
+    QccScatter
   },
   setup() {
     const data = [

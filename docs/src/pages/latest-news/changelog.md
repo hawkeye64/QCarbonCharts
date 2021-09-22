@@ -3,6 +3,6 @@ title: Changelog
 desc: The latest QCarbonCharts releases
 keys: latest-news
 components:
-- releases/QCarbonChartsReleases
+- releases/Releases
 ---
-<q-calendar-releases class="q-mt-sm"/>
+<releases class="q-mt-sm"/>

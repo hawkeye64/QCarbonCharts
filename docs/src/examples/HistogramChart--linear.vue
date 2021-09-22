@@ -1,18 +1,18 @@
 <template>
   <q-page padding>
-    <q-charts-histogram
+    <qcc-histogram
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsHistogram from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsHistogram'
+import QccHistogram from 'quasar-ui-qcarboncharts/src/components/QccHistogram'
 import 'quasar-ui-qcarboncharts/src/components/qcarboncharts.sass'
 
 export default {
   components: {
-    QCarbonChartsHistogram
+    QccHistogram
   },
   setup() {
     const data = [

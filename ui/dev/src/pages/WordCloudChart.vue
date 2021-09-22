@@ -1,17 +1,17 @@
 <template>
   <q-page padding>
-    <q-charts-word-cloud
+    <qcc-word-cloud
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsWordCloud from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsWordCloud'
+import QccWordCloud from 'quasar-ui-qcarboncharts/src/components/QccWordCloud'
 
 export default {
   components: {
-    QCarbonChartsWordCloud
+    QccWordCloud
   },
   setup() {
     const data = [

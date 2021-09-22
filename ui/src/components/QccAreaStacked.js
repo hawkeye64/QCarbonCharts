@@ -1,9 +1,9 @@
 import { h, ref, onMounted } from 'vue'
-import { GroupedBarChart } from '@carbon/charts'
+import { StackedAreaChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QCarbonChartsBarGrouped',
+  name: 'QccAreaStacked',
 
   props: {
     ...useBaseChartProps
@@ -14,7 +14,7 @@ export default {
     const chartRef = ref(null)
 
     onMounted(() => {
-      coreChart.value = new GroupedBarChart(chartRef.value, {
+      coreChart.value = new StackedAreaChart(chartRef.value, {
         data: props.data,
         options: props.options,
       })
@@ -27,7 +27,7 @@ export default {
     function __renderChart () {
       return h('div', {
         ref: chartRef,
-        class: 'q-charts q-charts-bar-grouped'
+        class: 'q-carbon-charts q-carbon-charts-area-stacked'
       })
     }
 

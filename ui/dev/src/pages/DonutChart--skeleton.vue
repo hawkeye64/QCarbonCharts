@@ -1,17 +1,17 @@
 <template>
   <q-page padding>
-    <q-charts-donut
+    <qcc-donut
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsDonut from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsDonut'
+import QccDonut from 'quasar-ui-qcarboncharts/src/components/QccDonut'
 
 export default {
   components: {
-    QCarbonChartsDonut
+    QccDonut
   },
   setup() {
     const data = []

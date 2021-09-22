@@ -1,17 +1,17 @@
 <template>
   <q-page padding>
-    <q-charts-treemap
+    <qcc-treemap
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsTreemap from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsTreemap'
+import QccTreemap from 'quasar-ui-qcarboncharts/src/components/QccTreemap'
 
 export default {
   components: {
-    QCarbonChartsTreemap
+    QccTreemap
   },
   setup() {
     const data = [

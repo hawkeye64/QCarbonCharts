@@ -1,17 +1,17 @@
 <template>
   <q-page padding>
-    <q-charts-bar-grouped
+    <qcc-bar-grouped
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsBarGrouped from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsBarGrouped'
+import QccBarGrouped from 'quasar-ui-qcarboncharts/src/components/QccBarGrouped'
 
 export default {
   components: {
-    QCarbonChartsBarGrouped
+    QccBarGrouped
   },
   setup() {
 		const data = [

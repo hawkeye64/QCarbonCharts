@@ -59,7 +59,7 @@ export default defineComponent({
   props: {
     title: {
       type: String,
-      default: 'Build Beautiful, Responsive Calendars'
+      default: 'Build Beautiful, Responsive Charts'
     },
     leftDrawerButton: Boolean,
     rightDrawerButton: Boolean,

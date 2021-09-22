@@ -1,9 +1,9 @@
 import { h, ref, onMounted } from 'vue'
-import { DonutChart } from '@carbon/charts'
+import { HistogramChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QCarbonChartsDonut',
+  name: 'QccHistogram',
 
   props: {
     ...useBaseChartProps
@@ -14,7 +14,7 @@ export default {
     const chartRef = ref(null)
 
     onMounted(() => {
-      coreChart.value = new DonutChart(chartRef.value, {
+      coreChart.value = new HistogramChart(chartRef.value, {
         data: props.data,
         options: props.options,
       })
@@ -27,7 +27,7 @@ export default {
     function __renderChart () {
       return h('div', {
         ref: chartRef,
-        class: 'q-charts q-charts-donut'
+        class: 'q-carbon-charts q-carbon-charts-histogram'
       })
     }
 

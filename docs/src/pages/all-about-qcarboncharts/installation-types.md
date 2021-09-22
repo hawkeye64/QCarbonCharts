@@ -11,27 +11,27 @@ First off, it's important to know that QCarbonCharts has many modular components
 
 The components are:
 
-1. QCarbonChartsAreaSimple
-2. QCarbonChartsAreaStacked
-3. QCarbonChartsBarGrouped
-4. QCarbonChartsBarSimple
-5. QCarbonChartsBarStacked
-6. QCarbonChartsBoxplot
-7. QCarbonChartsBubble
-8. QCarbonChartsBullet
-9. QCarbonChartsCirclePack
-10. QCarbonChartsCombo
-11. QCarbonChartsDonut
-12. QCarbonChartsGuage
-13. QCarbonChartsHistogram
-14. QCarbonChartsLine
-15. QCarbonChartsLollipop
-16. QCarbonChartsMeter
-17. QCarbonChartsPie
-18. QCarbonChartsRadar
-19. QCarbonChartsScatter
-20. QCarbonChartsTreemap
-21. QCarbonChartsWordCloud
+1. QccAreaSimple
+2. QccAreaStacked
+3. QccBarGrouped
+4. QccBarSimple
+5. QccBarStacked
+6. QccBoxplot
+7. QccBubble
+8. QccBullet
+9. QccCirclePack
+10. QccCombo
+11. QccDonut
+12. QccGuage
+13. QccHistogram
+14. QccLine
+15. QccLollipop
+16. QccMeter
+17. QccPie
+18. QccRadar
+19. QccScatter
+20. QccTreemap
+21. QccWordCloud
 
 These are also many ways to add the charting components to your project. You can install as a Quasar CLI app-extension. You might want to write your own boot file (for targeting one or more charting components). You might want to use pre-compiled sources in dist or directly from the src folder (src folder access means your project needs to transpile QCarbonCharts sources). Or, you may want to use a UMD variant.
 
@@ -58,7 +58,7 @@ $ quasar ext remove qcarboncharts
 ```
 
 #### Describe
-When installed as an App Extension, you can use `quasar describe QCarbonCharts`. You can replace `QCarbonCharts` with any of the charting types types (ex: `quasar describe QCarbonChartsBubble`).
+When installed as an App Extension, you can use `quasar describe QCarbonCharts`. You can replace `QCarbonCharts` with any of the charting types types (ex: `quasar describe QccBubble`).
 
 
 ### Or Create and register a boot file
@@ -75,7 +75,7 @@ $ npm install quasar-ui-qcarboncharts
 Then
 ```js
 import { boot } from 'quasar/wrappers'
-import Plugin from 'quasar-ui-qcarboncharts/src/QCarbonChartsBubble.js'
+import Plugin from 'quasar-ui-qcarboncharts/src/QccBubble.js'
 import 'quasar-ui-qcarboncharts/src/css/qcarboncharts.sass'
 
 export default boot(({ app }) => {
@@ -112,11 +112,11 @@ There are several variants for each calendar component, including common, es (mo
 <style src="quasar-ui-qcarboncharts/dist/qcarboncharts.min.css"></style>
 
 <script>
-import { QCarbonChartsBubble } from 'quasar-ui-qcarboncharts/dist/QCarbonChartsBubble.esm.js'
+import { QccBubble } from 'quasar-ui-qcarboncharts/dist/QccBubble.esm.js'
 
 export default {
   components: {
-    QCarbonChartsBubble
+    QccBubble
   }
 }
 </script>
@@ -128,7 +128,7 @@ export default {
 
 :::
 ```js
-import Plugin from 'quasar-ui-qcarboncharts/src/QCarbonChartsBubble.js'
+import Plugin from 'quasar-ui-qcarboncharts/src/QccBubble.js'
 import 'quasar-ui-qcarboncharts/src/css/qcarboncharts.sass'
 import App from './App.vue'
 
@@ -141,7 +141,7 @@ const app = createApp(App)
 
 :::
 ```js
-import Plugin from 'quasar-ui-qcarboncharts/dist/QCarbonChartsBubble.esm.js'
+import Plugin from 'quasar-ui-qcarboncharts/dist/QccBubble.esm.js'
 import 'quasar-ui-qcarboncharts/dist/qcarboncharts.min.css'
 import App from './App.vue'
 
@@ -157,11 +157,11 @@ const app = createApp(App)
 <style src="quasar-ui-qcarboncharts/dist/qcarboncharts.min.css"></style>
 
 <script>
-import { QCarbonChartsBubble } from 'quasar-ui-qcarboncharts/dist/QCarbonChartsBubble.esm.js'
+import { QccBubble } from 'quasar-ui-qcarboncharts/dist/QccBubble.esm.js'
 
 export default {
   components: {
-    QCarbonChartsBubble
+    QccBubble
   }
 }
 </script>
@@ -170,7 +170,7 @@ export default {
 
 ## UMD variant
 
-Exports `window.QCarbonChartsBubble`.
+Exports `window.QccBubble`.
 
 ### Quasar install
 
@@ -183,12 +183,12 @@ Add the following tag(s) after the Quasar ones:
 </head>
 <body>
   <!-- at end of body, AFTER Quasar script(s): -->
-  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-qcarboncharts/dist/QCarbonChartsBubble.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-qcarboncharts/dist/QccBubble.umd.min.js"></script>
 </body>
 ```
 If you need the RTL variant of the CSS, then go for the following (instead of the above stylesheet link):
 ```html
-<link href="https://cdn.jsdelivr.net/npm/quasar-ui-qcarboncharts/dist/QCarbonChartsBubble.rtl.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/quasar-ui-qcarboncharts/dist/QccBubble.rtl.min.css" rel="stylesheet" type="text/css">
 ```
 
 ### Vue install
@@ -199,7 +199,7 @@ If you need the RTL variant of the CSS, then go for the following (instead of th
 </head>
 <body>
   <!-- at end of body: -->
-  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-qcarboncharts/dist/QCarbonChartsBubble.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/quasar-ui-qcarboncharts/dist/QccBubble.umd.min.js"></script>
 </body>
 ```
 If you need the RTL variant of the CSS, then go for the following (instead of the above stylesheet link):
@@ -215,7 +215,7 @@ const app = Vue.createApp({
   }
 });
 
-app.component("QCarbonChartsBubble", QCarbonChartsBubble.QCarbonChartsBubble);
+app.component("QccBubble", QccBubble.QccBubble);
 app.mount("#app");
 ```
 

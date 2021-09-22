@@ -1,17 +1,17 @@
 <template>
   <q-page padding>
-    <q-charts-bullet
+    <qcc-bullet
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsBullet from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsBullet'
+import QccBullet from 'quasar-ui-qcarboncharts/src/components/QccBullet'
 
 export default {
   components: {
-    QCarbonChartsBullet
+    QccBullet
   },
   setup() {
     const data = [

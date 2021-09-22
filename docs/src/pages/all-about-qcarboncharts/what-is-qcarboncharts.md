@@ -19,24 +19,24 @@ And, if you're looking to help out, check out our [Call to action](/contributing
 
 QCarbonCharts an accumulation of several other dedicated components:
 
-1. QCarbonChartsAreaSimple
-2. QCarbonChartsAreaStacked
-3. QCarbonChartsBarGrouped
-4. QCarbonChartsBarSimple
-5. QCarbonChartsBarStacked
-6. QCarbonChartsBoxplot
-7. QCarbonChartsBubble
-8. QCarbonChartsBullet
-9. QCarbonChartsCirclePack
-10. QCarbonChartsCombo
-11. QCarbonChartsDonut
-12. QCarbonChartsGuage
-13. QCarbonChartsHistogram
-14. QCarbonChartsLine
-15. QCarbonChartsLollipop
-16. QCarbonChartsMeter
-17. QCarbonChartsPie
-18. QCarbonChartsRadar
-19. QCarbonChartsScatter
-20. QCarbonChartsTreemap
-21. QCarbonChartsWordCloud
+1. QccAreaSimple
+2. QccAreaStacked
+3. QccBarGrouped
+4. QccBarSimple
+5. QccBarStacked
+6. QccBoxplot
+7. QccBubble
+8. QccBullet
+9. QccCirclePack
+10. QccCombo
+11. QccDonut
+12. QccGuage
+13. QccHistogram
+14. QccLine
+15. QccLollipop
+16. QccMeter
+17. QccPie
+18. QccRadar
+19. QccScatter
+20. QccTreemap
+21. QccWordCloud

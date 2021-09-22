@@ -1,9 +1,9 @@
 import { h, ref, onMounted } from 'vue'
-import { WordCloudChart } from '@carbon/charts'
+import { PieChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QCarbonChartsScatter',
+  name: 'QccPie',
 
   props: {
     ...useBaseChartProps
@@ -14,7 +14,7 @@ export default {
     const chartRef = ref(null)
 
     onMounted(() => {
-      coreChart.value = new WordCloudChart(chartRef.value, {
+      coreChart.value = new PieChart(chartRef.value, {
         data: props.data,
         options: props.options,
       })
@@ -27,7 +27,7 @@ export default {
     function __renderChart () {
       return h('div', {
         ref: chartRef,
-        class: 'q-charts q-charts-treemap'
+        class: 'q-carbon-charts q-carbon-charts-pie'
       })
     }
 

@@ -1,18 +1,18 @@
 <template>
   <q-page padding>
-    <q-charts-area-stacked
+    <qcc-area-stacked
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsAreaStacked from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsAreaStacked'
+import QccAreaStacked from 'quasar-ui-qcarboncharts/src/components/QccAreaStacked'
 import 'quasar-ui-qcarboncharts/src/components/qcarboncharts.sass'
 
 export default {
   components: {
-    QCarbonChartsAreaStacked
+    QccAreaStacked
   },
   setup() {
 		const data = [

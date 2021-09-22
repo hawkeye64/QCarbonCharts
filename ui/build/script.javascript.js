@@ -5,6 +5,7 @@ const rollup = require('rollup')
 const uglify = require('uglify-js')
 const buble = require('@rollup/plugin-buble')
 const json = require('@rollup/plugin-json')
+const cjs = require('@rollup/plugin-commonjs')
 const { nodeResolve } = require('@rollup/plugin-node-resolve')
 const replace = require('@rollup/plugin-replace')
 
@@ -13,21 +14,37 @@ const { version } = require('../package.json')
 const buildConf = require('./config')
 const buildUtils = require('./utils')
 
+const bubleConfig = {
+  objectAssign: 'Object.assign'
+}
+
+const nodeResolveConfig = {
+  extensions: ['.js'],
+  preferBuiltins: false
+  // preferBuiltins: true
+  // jsnext: true,
+  // browser: true
+}
+
+const cjsConfig = {
+  include: [
+    /node_modules/
+  ]
+}
+
+const replaceConfig = {
+  preventAssignment: false,
+  values: {
+    __UI_VERSION__: `'${ version }'`
+  }
+}
+
 const rollupPlugins = [
-  replace({
-    preventAssignment: false,
-    values: {
-      __UI_VERSION__: `'${ version }'`
-    }
-  }),
-  nodeResolve({
-    extensions: ['.js'],
-    preferBuiltins: false
-  }),
+  replace(replaceConfig),
+  nodeResolve(nodeResolveConfig),
   json(),
-  buble({
-    objectAssign: 'Object.assign'
-  })
+  cjs(cjsConfig)
+  // buble(bubleConfig)
 ]
 
 const builds = [
@@ -135,7 +152,7 @@ function build (builds) {
 function genConfig (opts) {
   Object.assign(opts.rollup.input, {
     plugins: rollupPlugins,
-    external: [ 'vue', 'quasar' ]
+    external: [ 'vue', 'quasar', '@carbon/charts', 'carbon-components', 'd3' ]
   })
 
   Object.assign(opts.rollup.output, {

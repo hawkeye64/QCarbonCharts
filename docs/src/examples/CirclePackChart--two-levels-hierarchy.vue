@@ -1,18 +1,18 @@
 <template>
   <q-page padding>
-    <q-charts-circle-pack
+    <qcc-circle-pack
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsCirclePack from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsCirclePack'
+import QccCirclePack from 'quasar-ui-qcarboncharts/src/components/QccCirclePack'
 import 'quasar-ui-qcarboncharts/src/components/qcarboncharts.sass'
 
 export default {
   components: {
-    QCarbonChartsCirclePack
+    QccCirclePack
   },
   setup() {
     const data = [

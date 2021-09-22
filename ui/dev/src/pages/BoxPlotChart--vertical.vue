@@ -1,17 +1,17 @@
 <template>
   <q-page padding>
-    <q-charts-boxplot
+    <qcc-boxplot
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsBoxplot from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsBoxplot'
+import QccBoxplot from 'quasar-ui-qcarboncharts/src/components/QccBoxplot'
 
 export default {
   components: {
-    QCarbonChartsBoxplot
+    QccBoxplot
   },
   setup() {
 		const data = [

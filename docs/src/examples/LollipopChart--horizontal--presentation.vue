@@ -1,18 +1,18 @@
 <template>
   <q-page padding>
-    <q-charts-lollipop
+    <qcc-lollipop
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsLollipop from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsLollipop'
+import QccLollipop from 'quasar-ui-qcarboncharts/src/components/QccLollipop'
 import 'quasar-ui-qcarboncharts/src/components/qcarboncharts.sass'
 
 export default {
   components: {
-    QCarbonChartsLollipop
+    QccLollipop
   },
   setup() {
     const data = [

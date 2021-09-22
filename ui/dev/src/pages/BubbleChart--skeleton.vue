@@ -1,17 +1,17 @@
 <template>
   <q-page padding>
-    <q-charts-bubble
+    <qcc-bubble
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsBubble from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsBubble'
+import QccBubble from 'quasar-ui-qcarboncharts/src/components/QccBubble'
 
 export default {
   components: {
-    QCarbonChartsBubble
+    QccBubble
   },
   setup() {
     const data = []

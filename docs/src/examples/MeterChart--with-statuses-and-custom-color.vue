@@ -1,18 +1,18 @@
 <template>
   <q-page padding>
-    <q-charts-meter
+    <qcc-meter
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsMeter from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsMeter'
+import QccMeter from 'quasar-ui-qcarboncharts/src/components/QccMeter'
 import 'quasar-ui-qcarboncharts/src/components/qcarboncharts.sass'
 
 export default {
   components: {
-    QCarbonChartsMeter
+    QccMeter
   },
   setup() {
     const data = [

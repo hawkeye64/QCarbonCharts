@@ -1,9 +1,9 @@
 import { h, ref, onMounted } from 'vue'
-import { ComboChart } from '@carbon/charts'
+import { BoxplotChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QCarbonChartsCombo',
+  name: 'QccBoxplot',
 
   props: {
     ...useBaseChartProps
@@ -14,7 +14,7 @@ export default {
     const chartRef = ref(null)
 
     onMounted(() => {
-      coreChart.value = new ComboChart(chartRef.value, {
+      coreChart.value = new BoxplotChart(chartRef.value, {
         data: props.data,
         options: props.options,
       })
@@ -27,7 +27,7 @@ export default {
     function __renderChart () {
       return h('div', {
         ref: chartRef,
-        class: 'q-charts q-charts-combo'
+        class: 'q-carbon-charts q-carbon-charts-boxplot'
       })
     }
 

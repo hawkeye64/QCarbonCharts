@@ -1,18 +1,18 @@
 <template>
   <q-page padding>
-    <q-charts-guage
+    <qcc-guage
       :data="data"
       :options="options" />
   </q-page>
 </template>
 
 <script>
-import QCarbonChartsGuage from 'quasar-ui-qcarboncharts/src/components/QCarbonChartsGuage'
+import QccGuage from 'quasar-ui-qcarboncharts/src/components/QccGuage'
 import 'quasar-ui-qcarboncharts/src/components/qcarboncharts.sass'
 
 export default {
   components: {
-    QCarbonChartsGuage
+    QccGuage
   },
   setup() {
     const data = [

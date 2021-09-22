@@ -1,75 +1,75 @@
-import QCarbonChartsAreaSimple from './components/QCarbonChartsAreaSimple'
-import QCarbonChartsAreaStacked from './components/QCarbonChartsAreaStacked'
-import QCarbonChartsBarGrouped from './components/QCarbonChartsBarGrouped'
-import QCarbonChartsBarSimple from './components/QCarbonChartsBarSimple'
-import QCarbonChartsBarStacked from './components/QCarbonChartsBarStacked'
-import QCarbonChartsBoxplot from './components/QCarbonChartsBoxplot'
-import QCarbonChartsBubble from './components/QCarbonChartsBubble'
-import QCarbonChartsBullet from './components/QCarbonChartsBullet'
-import QCarbonChartsCirclePack from './components/QCarbonChartsCirclePack'
-import QCarbonChartsCombo from './components/QCarbonChartsCombo'
-import QCarbonChartsDonut from './components/QCarbonChartsDonut'
-import QCarbonChartsGuage from './components/QCarbonChartsGuage'
-import QCarbonChartsHistogram from './components/QCarbonChartsHistogram'
-import QCarbonChartsLine from './components/QCarbonChartsLine'
-import QCarbonChartsLollipop from './components/QCarbonChartsLollipop'
-import QCarbonChartsMeter from './components/QCarbonChartsMeter'
-import QCarbonChartsPie from './components/QCarbonChartsPie'
-import QCarbonChartsRadar from './components/QCarbonChartsRadar'
-import QCarbonChartsScatter from './components/QCarbonChartsScatter'
-import QCarbonChartsTreemap from './components/QCarbonChartsTreemap'
-import QCarbonChartsWordCloud from './components/QCarbonChartsWordCloud'
+import QccAreaSimple from './components/QccAreaSimple'
+import QccAreaStacked from './components/QccAreaStacked'
+import QccBarGrouped from './components/QccBarGrouped'
+import QccBarSimple from './components/QccBarSimple'
+import QccBarStacked from './components/QccBarStacked'
+import QccBoxplot from './components/QccBoxplot'
+import QccBubble from './components/QccBubble'
+import QccBullet from './components/QccBullet'
+import QccCirclePack from './components/QccCirclePack'
+import QccCombo from './components/QccCombo'
+import QccDonut from './components/QccDonut'
+import QccGuage from './components/QccGuage'
+import QccHistogram from './components/QccHistogram'
+import QccLine from './components/QccLine'
+import QccLollipop from './components/QccLollipop'
+import QccMeter from './components/QccMeter'
+import QccPie from './components/QccPie'
+import QccRadar from './components/QccRadar'
+import QccScatter from './components/QccScatter'
+import QccTreemap from './components/QccTreemap'
+import QccWordCloud from './components/QccWordCloud'
 
 
 const version = __UI_VERSION__
 
 function install (app) {
-  app.component(QCarbonChartsAreaSimple.name, QCarbonChartsAreaSimple)
-  app.component(QCarbonChartsAreaStacked.name, QCarbonChartsAreaStacked)
-  app.component(QCarbonChartsBarGrouped.name, QCarbonChartsBarGrouped)
-  app.component(QCarbonChartsBarSimple.name, QCarbonChartsBarSimple)
-  app.component(QCarbonChartsBarStacked.name, QCarbonChartsBarStacked)
-  app.component(QCarbonChartsBoxplot.name, QCarbonChartsBoxplot)
-  app.component(QCarbonChartsBubble.name, QCarbonChartsBubble)
-  app.component(QCarbonChartsBullet.name, QCarbonChartsBullet)
-  app.component(QCarbonChartsCirclePack.name, QCarbonChartsCirclePack)
-  app.component(QCarbonChartsCombo.name, QCarbonChartsCombo)
-  app.component(QCarbonChartsDonut.name, QCarbonChartsDonut)
-  app.component(QCarbonChartsGuage.name, QCarbonChartsGuage)
-  app.component(QCarbonChartsHistogram.name, QCarbonChartsHistogram)
-  app.component(QCarbonChartsLine.name, QCarbonChartsLine)
-  app.component(QCarbonChartsLollipop.name, QCarbonChartsLollipop)
-  app.component(QCarbonChartsMeter.name, QCarbonChartsMeter)
-  app.component(QCarbonChartsPie.name, QCarbonChartsPie)
-  app.component(QCarbonChartsRadar.name, QCarbonChartsRadar)
-  app.component(QCarbonChartsScatter.name, QCarbonChartsScatter)
-  app.component(QCarbonChartsTreemap.name, QCarbonChartsTreemap)
-  app.component(QCarbonChartsWordCloud.name, QCarbonChartsWordCloud)
+  app.component(QccAreaSimple.name, QccAreaSimple)
+  app.component(QccAreaStacked.name, QccAreaStacked)
+  app.component(QccBarGrouped.name, QccBarGrouped)
+  app.component(QccBarSimple.name, QccBarSimple)
+  app.component(QccBarStacked.name, QccBarStacked)
+  app.component(QccBoxplot.name, QccBoxplot)
+  app.component(QccBubble.name, QccBubble)
+  app.component(QccBullet.name, QccBullet)
+  app.component(QccCirclePack.name, QccCirclePack)
+  app.component(QccCombo.name, QccCombo)
+  app.component(QccDonut.name, QccDonut)
+  app.component(QccGuage.name, QccGuage)
+  app.component(QccHistogram.name, QccHistogram)
+  app.component(QccLine.name, QccLine)
+  app.component(QccLollipop.name, QccLollipop)
+  app.component(QccMeter.name, QccMeter)
+  app.component(QccPie.name, QccPie)
+  app.component(QccRadar.name, QccRadar)
+  app.component(QccScatter.name, QccScatter)
+  app.component(QccTreemap.name, QccTreemap)
+  app.component(QccWordCloud.name, QccWordCloud)
 }
 
 export {
   version,
-  QCarbonChartsAreaSimple,
-  QCarbonChartsAreaStacked,
-  QCarbonChartsBarGrouped,
-  QCarbonChartsBarSimple,
-  QCarbonChartsBarStacked,
-  QCarbonChartsBoxplot,
-  QCarbonChartsBubble,
-  QCarbonChartsBullet,
-  QCarbonChartsCirclePack,
-  QCarbonChartsCombo,
-  QCarbonChartsDonut,
-  QCarbonChartsGuage,
-  QCarbonChartsHistogram,
-  QCarbonChartsLine,
-  QCarbonChartsLollipop,
-  QCarbonChartsMeter,
-  QCarbonChartsPie,
-  QCarbonChartsRadar,
-  QCarbonChartsScatter,
-  QCarbonChartsTreemap,
-  QCarbonChartsWordCloud,
+  QccAreaSimple,
+  QccAreaStacked,
+  QccBarGrouped,
+  QccBarSimple,
+  QccBarStacked,
+  QccBoxplot,
+  QccBubble,
+  QccBullet,
+  QccCirclePack,
+  QccCombo,
+  QccDonut,
+  QccGuage,
+  QccHistogram,
+  QccLine,
+  QccLollipop,
+  QccMeter,
+  QccPie,
+  QccRadar,
+  QccScatter,
+  QccTreemap,
+  QccWordCloud,
 
   install
 }

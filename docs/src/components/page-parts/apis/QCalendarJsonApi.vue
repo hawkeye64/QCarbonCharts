@@ -1,7 +1,7 @@
 <template>
 <div></div>
   <!-- <json-api-viewer
-    title="QCalendar API"
+    title="QCarbonCharts API"
     :json="json"
     no-menu
   /> -->
@@ -9,7 +9,7 @@
 
 <script>
 import { defineComponent } from 'vue'
-// import Api from '@quasar/quasar-ui-qcalendar/dist/api/QCalendar.json'
+// import Api from '@quasar/quasar-ui-qcalendar/dist/api/QCarbonCharts.json'
 
 export default defineComponent({
   name: 'QCalendarJsonApi',

@@ -3,7 +3,7 @@ import { StackedBarChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QCarbonChartsBarStacked',
+  name: 'QccBarStacked',
 
   props: {
     ...useBaseChartProps
@@ -27,7 +27,7 @@ export default {
     function __renderChart () {
       return h('div', {
         ref: chartRef,
-        class: 'q-charts q-charts-bar-stacked'
+        class: 'q-carbon-charts q-carbon-charts-bar-stacked'
       })
     }
 

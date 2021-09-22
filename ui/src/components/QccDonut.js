@@ -1,9 +1,9 @@
 import { h, ref, onMounted } from 'vue'
-import { AreaChart } from '@carbon/charts'
+import { DonutChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QCarbonChartsAreaSimple',
+  name: 'QccDonut',
 
   props: {
     ...useBaseChartProps
@@ -14,7 +14,7 @@ export default {
     const chartRef = ref(null)
 
     onMounted(() => {
-      coreChart.value = new AreaChart(chartRef.value, {
+      coreChart.value = new DonutChart(chartRef.value, {
         data: props.data,
         options: props.options,
       })
@@ -27,7 +27,7 @@ export default {
     function __renderChart () {
       return h('div', {
         ref: chartRef,
-        class: 'q-charts q-charts-area-simple'
+        class: 'q-carbon-charts q-carbon-charts-donut'
       })
     }
 

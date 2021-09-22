@@ -1,9 +1,9 @@
 import { h, ref, onMounted } from 'vue'
-import { LineChart } from '@carbon/charts'
+import { ScatterChart } from '@carbon/charts'
 import useBaseChart, { useBaseChartProps } from '../composables/BaseChart'
 
 export default {
-  name: 'QCarbonChartsLine',
+  name: 'QccScatter',
 
   props: {
     ...useBaseChartProps
@@ -14,7 +14,7 @@ export default {
     const chartRef = ref(null)
 
     onMounted(() => {
-      coreChart.value = new LineChart(chartRef.value, {
+      coreChart.value = new ScatterChart(chartRef.value, {
         data: props.data,
         options: props.options,
       })
@@ -27,7 +27,7 @@ export default {
     function __renderChart () {
       return h('div', {
         ref: chartRef,
-        class: 'q-charts q-charts-line'
+        class: 'q-carbon-charts q-carbon-charts-scatter'
       })
     }
 
