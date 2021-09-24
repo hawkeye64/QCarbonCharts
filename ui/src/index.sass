@@ -1,2 +1,6 @@
-// @import 'quasar/src/css/variables.sass'
-@import './components/qcarboncharts.sass'
+@import '~@carbon/themes/scss/themes'
+
+$carbon--theme: $carbon--theme--g10
+@include carbon--theme()
+
+@import "~@carbon/charts/styles/styles.scss"
