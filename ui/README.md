@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/quasar-ui-qcarboncharts.svg?label=quasar-ui-qcarboncharts)](https://www.npmjs.com/package/quasar-ui-qcarboncharts)
 [![npm](https://img.shields.io/npm/dt/quasar-ui-qcarboncharts.svg)](https://www.npmjs.com/package/quasar-ui-qcarboncharts)
 
-**Compatible with Quasar UI v2 and Vue 3**.
+**Compatible with Quasar v2 and Vue 3**.
 
 # Component QCarbonCharts
 > Short description of the component

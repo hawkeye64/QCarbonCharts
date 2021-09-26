@@ -2,14 +2,13 @@
   "name": "qcarboncharts",
   "version": "1.0.0",
   "description": "qcarboncharts mono-repo",
-  "workspaces": [
-    "ui",
-    "docs"
-  ],
   "author": "Jeff Galbraith <galbraith64@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build:all": "yarn && cd ./ui && yarn build && cd ../docs && quasar build"
+    "build:dev": "cd ./ui && yarn && yarn build && cd ../docs && yarn && quasar dev",
+    "build:all": "cd ./ui && yarn && yarn build && cd ../docs && yarn && quasar build",
+    "build:old": "yarn && cd ./ui && yarn build && cd ../docs && quasar build",
+    "link": "cd ui && yarn link && cd ../docs && yarn link quasar-ui-qcarboncharts"
   }
 }

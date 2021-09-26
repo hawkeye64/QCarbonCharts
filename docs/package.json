@@ -19,7 +19,7 @@
   "dependencies": {
     "@carbon/icons-vue": "^10.37.0",
     "@quasar/extras": "^1.11.0",
-    "quasar-ui-qcarboncharts": "./ui",
+    "quasar-ui-qcarboncharts": "../ui",
     "core-js": "^3.18.0",
     "quasar": "^2.1.0",
     "quasar-ui-example-viewer": "^2.0.0-alpha.6",
