@@ -1,20 +1,21 @@
 @import './carbon-variables.sass'
 
+// $chart-feature-flags: enable-font-imports=false
+
 .q-carbon-charts
   @import '@carbon/charts/styles/styles-white.scss'
 
 .q-carbon-charts
- .bx--cc--donut
-   overflow: visible !important
+  .bx--cc--donut
+    overflow: visible !important
 
- .bx--cc--chart-wrapper svg.layout-svg-wrapper
-   overflow: visible !important
+  .bx--cc--chart-wrapper svg.layout-svg-wrapper
+    overflow: visible !important
 
- svg:not(:root)
-   overflow: visible !important
+  svg:not(:root)
+    overflow: visible !important
 
-.q-dark div,
-.body--dark div
+.q-dark div, .body--dark div
   .q-carbon-charts
     @import '@carbon/charts/styles/styles-g100.scss'
 
