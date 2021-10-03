@@ -10,5 +10,9 @@
     "build:all": "cd ./ui && yarn && yarn build && cd ../docs && yarn && quasar build",
     "build:old": "yarn && cd ./ui && yarn build && cd ../docs && quasar build",
     "link": "cd ui && yarn link && cd ../docs && yarn link quasar-ui-qcarboncharts"
+  },
+  "workspaces": {
+    "packages": [ "ui/*", "docs/*", "app-extension/*" ],
+    "nohoist": [ "**/@carbon/charts" ]
   }
 }
