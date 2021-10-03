@@ -7,6 +7,7 @@ const autoprefixer = require('autoprefixer')
 
 const buildConf = require('./config')
 const buildUtils = require('./utils')
+const { parse } = require('path')
 
 const postCssCompiler = postcss([ autoprefixer ])
 const postCssRtlCompiler = postcss([ rtl({}) ])
@@ -61,6 +62,7 @@ function generate (src, dest) {
     })
     return code.css
   })
+  .then(code => fixSassWrapperIssues(code))
   .then(code => Promise.all([
     generateUMD(dest, code),
     postCssRtlCompiler.process(code, { from: void 0 })
@@ -72,4 +74,17 @@ function generateUMD (dest, code, ext = '') {
   return buildUtils.writeFile(`${dest}${ext}.css`, code, true)
     .then(code => nano.process(code, { from: void 0 }))
     .then(code => buildUtils.writeFile(`${dest}${ext}.min.css`, code.css, true))
+}
+
+function fixSassWrapperIssues (code) {
+  return new Promise(resolve => {
+    code = (code || '')
+      .replace(/(@font-face\s{\s)(.*?q-carbon-charts\s{\s)(( {4}.*?;\s)*)(\s{2}}\n})/gm, function (match, p1, p2, p3, p4) {
+        p3 = p3.replace(/    /g, '  ')  // replace 4 spaces with 2
+        p4 = p4.replace(/    /g, '  ')  // replace 4 spaces with 2
+        return p1 + p3 + p4 + '}'
+      })
+
+    resolve(code)
+  })
 }
