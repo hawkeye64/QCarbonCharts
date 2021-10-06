@@ -3,7 +3,8 @@
 // $chart-feature-flags: enable-font-imports=false
 
 .q-carbon-charts
-  @import '@carbon/charts/styles/styles-white.scss'
+  @at-root
+    @import '@carbon/charts/styles/styles-white.scss'
 
 .q-carbon-charts
   .bx--cc--donut
@@ -17,5 +18,6 @@
 
 .q-dark div, .body--dark div
   .q-carbon-charts
-    @import '@carbon/charts/styles/styles-g100.scss'
+    @at-root
+      @import '@carbon/charts/styles/styles-g100.scss'
 
